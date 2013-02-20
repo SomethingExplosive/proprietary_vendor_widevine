@@ -1,4 +1,5 @@
 # Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2013 The SomethingExplosive Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,4 +15,7 @@
 
 # Widevine blob(s) necessary for Toroplus hardware
 PRODUCT_PACKAGES := \
-    libdrmdecrypt
+    libdrmdecrypt \
+    libwvdrm_L1 \
+    libWVStreamControlAPI_L1 \
+    libWVphoneAPI
